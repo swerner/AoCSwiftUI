@@ -8,9 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            
+            NavigationView {
+                VStack {
+                    Text("Years")
+                    NavigationLink(destination: AoC2015View()) {
+                        Text("2015")
+                    }
+                    NavigationLink(destination: Text("2016")) {
+                        Text("2016")
+                    }
+                    NavigationLink(destination: Text("2017")) {
+                        Text("2017")
+                    }
+                    NavigationLink(destination: Text("2018")) {
+                        Text("2018")
+                    }
+                    NavigationLink(destination: Text("2019")) {
+                        Text("2019")
+                    }
+                    NavigationLink(destination: Text("2020")) {
+                        Text("2020")
+                    }
+                }
+            }
+        }
     }
 }
 

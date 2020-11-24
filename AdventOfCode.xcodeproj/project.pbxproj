@@ -13,6 +13,15 @@
 		BE7FF1B1256C46870020C4C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7FF1B0256C46870020C4C9 /* Preview Assets.xcassets */; };
 		BE7FF1BD256C46870020C4C9 /* AdventOfCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1BC256C46870020C4C9 /* AdventOfCodeTests.swift */; };
 		BE7FF1C8256C46870020C4C9 /* AdventOfCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1C7256C46870020C4C9 /* AdventOfCodeUITests.swift */; };
+		BE7FF1D9256C46DD0020C4C9 /* NQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1D8256C46DD0020C4C9 /* NQL.swift */; };
+		BE7FF1DA256C46DD0020C4C9 /* NQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1D8256C46DD0020C4C9 /* NQL.swift */; };
+		BE7FF1E0256C48580020C4C9 /* NQLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1DF256C48580020C4C9 /* NQLTest.swift */; };
+		BE7FF1E8256D91A60020C4C9 /* AoC2015View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1E7256D91A60020C4C9 /* AoC2015View.swift */; };
+		BE7FF1E9256D91A60020C4C9 /* AoC2015View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1E7256D91A60020C4C9 /* AoC2015View.swift */; };
+		BE7FF1F1256D922A0020C4C9 /* NQLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1F0256D922A0020C4C9 /* NQLView.swift */; };
+		BE7FF1F2256D922A0020C4C9 /* NQLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1F0256D922A0020C4C9 /* NQLView.swift */; };
+		BE7FF200256D95360020C4C9 /* NoMathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1FF256D95360020C4C9 /* NoMathView.swift */; };
+		BE7FF201256D95360020C4C9 /* NoMathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1FF256D95360020C4C9 /* NoMathView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +55,11 @@
 		BE7FF1C3256C46870020C4C9 /* AdventOfCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventOfCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7FF1C7256C46870020C4C9 /* AdventOfCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCodeUITests.swift; sourceTree = "<group>"; };
 		BE7FF1C9256C46870020C4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7FF1D8256C46DD0020C4C9 /* NQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQL.swift; sourceTree = "<group>"; };
+		BE7FF1DF256C48580020C4C9 /* NQLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQLTest.swift; sourceTree = "<group>"; };
+		BE7FF1E7256D91A60020C4C9 /* AoC2015View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoC2015View.swift; sourceTree = "<group>"; };
+		BE7FF1F0256D922A0020C4C9 /* NQLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQLView.swift; sourceTree = "<group>"; };
+		BE7FF1FF256D95360020C4C9 /* NoMathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoMathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +110,16 @@
 		BE7FF1A8256C46860020C4C9 /* AdventOfCode */ = {
 			isa = PBXGroup;
 			children = (
+				BE7FF1DE256C46F50020C4C9 /* 2015 */,
 				BE7FF1A9256C46860020C4C9 /* AdventOfCodeApp.swift */,
 				BE7FF1AB256C46860020C4C9 /* ContentView.swift */,
 				BE7FF1AD256C46870020C4C9 /* Assets.xcassets */,
 				BE7FF1B2256C46870020C4C9 /* Info.plist */,
 				BE7FF1B3256C46870020C4C9 /* AdventOfCode.entitlements */,
 				BE7FF1AF256C46870020C4C9 /* Preview Content */,
+				BE7FF1E7256D91A60020C4C9 /* AoC2015View.swift */,
+				BE7FF1F0256D922A0020C4C9 /* NQLView.swift */,
+				BE7FF1FF256D95360020C4C9 /* NoMathView.swift */,
 			);
 			path = AdventOfCode;
 			sourceTree = "<group>";
@@ -119,6 +137,7 @@
 			children = (
 				BE7FF1BC256C46870020C4C9 /* AdventOfCodeTests.swift */,
 				BE7FF1BE256C46870020C4C9 /* Info.plist */,
+				BE7FF1DF256C48580020C4C9 /* NQLTest.swift */,
 			);
 			path = AdventOfCodeTests;
 			sourceTree = "<group>";
@@ -130,6 +149,14 @@
 				BE7FF1C9256C46870020C4C9 /* Info.plist */,
 			);
 			path = AdventOfCodeUITests;
+			sourceTree = "<group>";
+		};
+		BE7FF1DE256C46F50020C4C9 /* 2015 */ = {
+			isa = PBXGroup;
+			children = (
+				BE7FF1D8256C46DD0020C4C9 /* NQL.swift */,
+			);
+			path = 2015;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7FF1E8256D91A60020C4C9 /* AoC2015View.swift in Sources */,
 				BE7FF1AC256C46860020C4C9 /* ContentView.swift in Sources */,
 				BE7FF1AA256C46860020C4C9 /* AdventOfCodeApp.swift in Sources */,
+				BE7FF200256D95360020C4C9 /* NoMathView.swift in Sources */,
+				BE7FF1F1256D922A0020C4C9 /* NQLView.swift in Sources */,
+				BE7FF1D9256C46DD0020C4C9 /* NQL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7FF1E9256D91A60020C4C9 /* AoC2015View.swift in Sources */,
 				BE7FF1BD256C46870020C4C9 /* AdventOfCodeTests.swift in Sources */,
+				BE7FF1DA256C46DD0020C4C9 /* NQL.swift in Sources */,
+				BE7FF201256D95360020C4C9 /* NoMathView.swift in Sources */,
+				BE7FF1F2256D922A0020C4C9 /* NQLView.swift in Sources */,
+				BE7FF1E0256C48580020C4C9 /* NQLTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
