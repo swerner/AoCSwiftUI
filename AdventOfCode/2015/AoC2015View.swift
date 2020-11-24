@@ -14,7 +14,9 @@ struct AoC2015View: View {
                 NavigationLink(destination: NQLView()) {
                     Text("Day 1: NQL")
                 }
-                
+                NavigationLink(destination: NoMathView()) {
+                    Text("Day 2: No Math")
+                }
             }
         }
     }

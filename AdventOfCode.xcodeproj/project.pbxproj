@@ -22,6 +22,13 @@
 		BE7FF1F2256D922A0020C4C9 /* NQLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1F0256D922A0020C4C9 /* NQLView.swift */; };
 		BE7FF200256D95360020C4C9 /* NoMathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1FF256D95360020C4C9 /* NoMathView.swift */; };
 		BE7FF201256D95360020C4C9 /* NoMathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF1FF256D95360020C4C9 /* NoMathView.swift */; };
+		BE7FF206256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF205256D973F0020C4C9 /* WrappingPaperCalculator.swift */; };
+		BE7FF207256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF205256D973F0020C4C9 /* WrappingPaperCalculator.swift */; };
+		BE7FF20C256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF20B256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift */; };
+		BE7FF211256D9AC20020C4C9 /* day2-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE7FF210256D9AC20020C4C9 /* day2-input.txt */; };
+		BE7FF212256D9AC20020C4C9 /* day2-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE7FF210256D9AC20020C4C9 /* day2-input.txt */; };
+		BE7FF21C256DA2990020C4C9 /* FileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF21B256DA2990020C4C9 /* FileImporter.swift */; };
+		BE7FF21D256DA2990020C4C9 /* FileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FF21B256DA2990020C4C9 /* FileImporter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +67,10 @@
 		BE7FF1E7256D91A60020C4C9 /* AoC2015View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoC2015View.swift; sourceTree = "<group>"; };
 		BE7FF1F0256D922A0020C4C9 /* NQLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQLView.swift; sourceTree = "<group>"; };
 		BE7FF1FF256D95360020C4C9 /* NoMathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoMathView.swift; sourceTree = "<group>"; };
+		BE7FF205256D973F0020C4C9 /* WrappingPaperCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingPaperCalculator.swift; sourceTree = "<group>"; };
+		BE7FF20B256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingPaperCalculatorTests.swift; sourceTree = "<group>"; };
+		BE7FF210256D9AC20020C4C9 /* day2-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "day2-input.txt"; sourceTree = "<group>"; };
+		BE7FF21B256DA2990020C4C9 /* FileImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileImporter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +121,7 @@
 		BE7FF1A8256C46860020C4C9 /* AdventOfCode */ = {
 			isa = PBXGroup;
 			children = (
+				BE7FF21A256D9AFB0020C4C9 /* Utilities */,
 				BE7FF1DE256C46F50020C4C9 /* 2015 */,
 				BE7FF1A9256C46860020C4C9 /* AdventOfCodeApp.swift */,
 				BE7FF1AB256C46860020C4C9 /* ContentView.swift */,
@@ -117,9 +129,6 @@
 				BE7FF1B2256C46870020C4C9 /* Info.plist */,
 				BE7FF1B3256C46870020C4C9 /* AdventOfCode.entitlements */,
 				BE7FF1AF256C46870020C4C9 /* Preview Content */,
-				BE7FF1E7256D91A60020C4C9 /* AoC2015View.swift */,
-				BE7FF1F0256D922A0020C4C9 /* NQLView.swift */,
-				BE7FF1FF256D95360020C4C9 /* NoMathView.swift */,
 			);
 			path = AdventOfCode;
 			sourceTree = "<group>";
@@ -138,6 +147,7 @@
 				BE7FF1BC256C46870020C4C9 /* AdventOfCodeTests.swift */,
 				BE7FF1BE256C46870020C4C9 /* Info.plist */,
 				BE7FF1DF256C48580020C4C9 /* NQLTest.swift */,
+				BE7FF20B256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift */,
 			);
 			path = AdventOfCodeTests;
 			sourceTree = "<group>";
@@ -154,9 +164,38 @@
 		BE7FF1DE256C46F50020C4C9 /* 2015 */ = {
 			isa = PBXGroup;
 			children = (
-				BE7FF1D8256C46DD0020C4C9 /* NQL.swift */,
+				BE7FF1E7256D91A60020C4C9 /* AoC2015View.swift */,
+				BE7FF224256DA73B0020C4C9 /* Day1 */,
+				BE7FF219256D9ADC0020C4C9 /* Day2 */,
 			);
 			path = 2015;
+			sourceTree = "<group>";
+		};
+		BE7FF219256D9ADC0020C4C9 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				BE7FF1FF256D95360020C4C9 /* NoMathView.swift */,
+				BE7FF205256D973F0020C4C9 /* WrappingPaperCalculator.swift */,
+				BE7FF210256D9AC20020C4C9 /* day2-input.txt */,
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
+		BE7FF21A256D9AFB0020C4C9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE7FF21B256DA2990020C4C9 /* FileImporter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BE7FF224256DA73B0020C4C9 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				BE7FF1F0256D922A0020C4C9 /* NQLView.swift */,
+				BE7FF1D8256C46DD0020C4C9 /* NQL.swift */,
+			);
+			path = Day1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +303,7 @@
 			files = (
 				BE7FF1B1256C46870020C4C9 /* Preview Assets.xcassets in Resources */,
 				BE7FF1AE256C46870020C4C9 /* Assets.xcassets in Resources */,
+				BE7FF211256D9AC20020C4C9 /* day2-input.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7FF212256D9AC20020C4C9 /* day2-input.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,10 +331,12 @@
 			files = (
 				BE7FF1E8256D91A60020C4C9 /* AoC2015View.swift in Sources */,
 				BE7FF1AC256C46860020C4C9 /* ContentView.swift in Sources */,
+				BE7FF206256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */,
 				BE7FF1AA256C46860020C4C9 /* AdventOfCodeApp.swift in Sources */,
 				BE7FF200256D95360020C4C9 /* NoMathView.swift in Sources */,
 				BE7FF1F1256D922A0020C4C9 /* NQLView.swift in Sources */,
 				BE7FF1D9256C46DD0020C4C9 /* NQL.swift in Sources */,
+				BE7FF21C256DA2990020C4C9 /* FileImporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +346,10 @@
 			files = (
 				BE7FF1E9256D91A60020C4C9 /* AoC2015View.swift in Sources */,
 				BE7FF1BD256C46870020C4C9 /* AdventOfCodeTests.swift in Sources */,
+				BE7FF20C256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift in Sources */,
+				BE7FF207256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */,
 				BE7FF1DA256C46DD0020C4C9 /* NQL.swift in Sources */,
+				BE7FF21D256DA2990020C4C9 /* FileImporter.swift in Sources */,
 				BE7FF201256D95360020C4C9 /* NoMathView.swift in Sources */,
 				BE7FF1F2256D922A0020C4C9 /* NQLView.swift in Sources */,
 				BE7FF1E0256C48580020C4C9 /* NQLTest.swift in Sources */,
