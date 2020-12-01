@@ -12,9 +12,14 @@ struct AoC2020View: View {
         VStack {
             NavigationView {
                 VStack {
-                    NavigationLink(destination: Text("Day 1")) {
-                        Text("Day 1")
+                    HStack {
+                        Image(systemName: "star")
+                        Image(systemName: "star")
+                        NavigationLink(destination: Day1View2020()) {
+                            Text("Day 1")
+                        }
                     }
+                   
                     Group {
                         Text("Day 2")
                         Text("Day 3")
