@@ -31,7 +31,7 @@ struct ContentView: View {
                     NavigationLink(destination: Text("2019")) {
                         Text("2019")
                     }
-                    NavigationLink(destination: Text("2020")) {
+                    NavigationLink(destination: AoC2020View()) {
                         Text("2020")
                     }
                 }
