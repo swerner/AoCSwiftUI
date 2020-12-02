@@ -34,6 +34,26 @@ class PasswordsProcessor: NSObject {
             
             return false
         }
+        
+        func isValid2() -> Bool {
+            var letterAtSpotCount = 0
+            let candidateCharacters = Array(self.candidate)
+            
+            if candidateCharacters[reqMin] == self.reqLetter {
+                letterAtSpotCount += 1
+            }
+            
+            if candidateCharacters[reqMax] == self.reqLetter {
+                letterAtSpotCount += 1
+            }
+            
+            if letterAtSpotCount == 1 {
+                return true
+            }
+            
+            return false
+        }
+        
     }
     
     var passwords: [Password]
@@ -50,6 +70,16 @@ class PasswordsProcessor: NSObject {
     func validPasswordCount() -> Int {
         return passwords.reduce(0, { memo, iter in
             if iter.isValid() {
+                return memo + 1
+            } else {
+                return memo
+            }
+        })
+    }
+    
+    func validPasswordCount2() -> Int {
+        return passwords.reduce(0, { memo, iter in
+            if iter.isValid2() {
                 return memo + 1
             } else {
                 return memo

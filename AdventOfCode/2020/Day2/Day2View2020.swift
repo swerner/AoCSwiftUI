@@ -14,5 +14,7 @@ struct Day2View2020: View {
         
         Text("Part 1").bold()
         Text("Good Password Count: \(processor.validPasswordCount())")
+        Text("Part 2").bold()
+        Text("Good Password Count with New rules: \(processor.validPasswordCount2())")
     }
 }

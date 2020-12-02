@@ -37,4 +37,13 @@ class PasswordProcessorTests: XCTestCase {
         
         XCTAssertEqual(PasswordsProcessor(lines: examples).validPasswordCount(), 2)
     }
+    
+    func testSecondStarValues() throws {
+        let examples = [
+            "1-3 a: abcde",
+            "1-3 b: cdefg",
+            "2-9 c: ccccccccc"]
+        
+        XCTAssertEqual(PasswordsProcessor(lines: examples).validPasswordCount2(), 1)
+    }
 }
