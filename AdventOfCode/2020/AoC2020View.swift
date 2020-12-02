@@ -27,10 +27,16 @@ struct AoC2020View: View {
                             Text("Day 2")
                         }
                     }
-                   
+                    
+                    HStack {
+                        Image(systemName: "star").foregroundColor(.yellow)
+                        Image(systemName: "star").foregroundColor(.yellow)
+                        NavigationLink(destination: Text("Day 3")) {
+                            Text("Day 3")
+                        }
+                    }
+                    
                     Group {
-                        Text("Day 2")
-                        Text("Day 3")
                         Text("Day 4")
                         Text("Day 5")
                         Text("Day 6")
