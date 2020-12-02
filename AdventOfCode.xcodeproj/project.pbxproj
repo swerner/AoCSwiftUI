@@ -35,6 +35,13 @@
 		D4E45B412576864D00FA8BD0 /* TTFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45B402576864D00FA8BD0 /* TTFinderTests.swift */; };
 		D4E45B462576875E00FA8BD0 /* day1-input-2020.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45B452576875E00FA8BD0 /* day1-input-2020.txt */; };
 		D4E45B472576875E00FA8BD0 /* day1-input-2020.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45B452576875E00FA8BD0 /* day1-input-2020.txt */; };
+		D4E45B552577D77800FA8BD0 /* Day2View2020.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45B542577D77800FA8BD0 /* Day2View2020.swift */; };
+		D4E45B562577D77800FA8BD0 /* Day2View2020.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45B542577D77800FA8BD0 /* Day2View2020.swift */; };
+		D4E45B5C2577D80E00FA8BD0 /* day2-input-2020.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45B5B2577D80E00FA8BD0 /* day2-input-2020.txt */; };
+		D4E45B5D2577D80E00FA8BD0 /* day2-input-2020.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45B5B2577D80E00FA8BD0 /* day2-input-2020.txt */; };
+		D4E45B632577D84500FA8BD0 /* PasswordsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45B622577D84500FA8BD0 /* PasswordsProcessor.swift */; };
+		D4E45B642577D84500FA8BD0 /* PasswordsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45B622577D84500FA8BD0 /* PasswordsProcessor.swift */; };
+		D4E45B6A2577D99400FA8BD0 /* PasswordProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45B692577D99400FA8BD0 /* PasswordProcessorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +81,10 @@
 		D4E45B3A2576860E00FA8BD0 /* TTFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTFinder.swift; sourceTree = "<group>"; };
 		D4E45B402576864D00FA8BD0 /* TTFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTFinderTests.swift; sourceTree = "<group>"; };
 		D4E45B452576875E00FA8BD0 /* day1-input-2020.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "day1-input-2020.txt"; sourceTree = "<group>"; };
+		D4E45B542577D77800FA8BD0 /* Day2View2020.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2View2020.swift; sourceTree = "<group>"; };
+		D4E45B5B2577D80E00FA8BD0 /* day2-input-2020.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "day2-input-2020.txt"; sourceTree = "<group>"; };
+		D4E45B622577D84500FA8BD0 /* PasswordsProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsProcessor.swift; sourceTree = "<group>"; };
+		D4E45B692577D99400FA8BD0 /* PasswordProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordProcessorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +156,7 @@
 				BE7FF1DF256C48580020C4C9 /* NQLTest.swift */,
 				BE7FF20B256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift */,
 				D4E45B402576864D00FA8BD0 /* TTFinderTests.swift */,
+				D4E45B692577D99400FA8BD0 /* PasswordProcessorTests.swift */,
 			);
 			path = AdventOfCodeTests;
 			sourceTree = "<group>";
@@ -198,6 +210,7 @@
 		D4E45B1F2575E62A00FA8BD0 /* 2020 */ = {
 			isa = PBXGroup;
 			children = (
+				D4E45B532577D76800FA8BD0 /* Day2 */,
 				D4E45B282575ECF500FA8BD0 /* Day1 */,
 				D4E45B202575E64700FA8BD0 /* AoC2020View.swift */,
 			);
@@ -212,6 +225,16 @@
 				D4E45B452576875E00FA8BD0 /* day1-input-2020.txt */,
 			);
 			path = Day1;
+			sourceTree = "<group>";
+		};
+		D4E45B532577D76800FA8BD0 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E45B5B2577D80E00FA8BD0 /* day2-input-2020.txt */,
+				D4E45B542577D77800FA8BD0 /* Day2View2020.swift */,
+				D4E45B622577D84500FA8BD0 /* PasswordsProcessor.swift */,
+			);
+			path = Day2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7FF1B1256C46870020C4C9 /* Preview Assets.xcassets in Resources */,
+				D4E45B5C2577D80E00FA8BD0 /* day2-input-2020.txt in Resources */,
 				BE7FF1AE256C46870020C4C9 /* Assets.xcassets in Resources */,
 				D4E45B462576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
 				BE7FF211256D9AC20020C4C9 /* day2-input.txt in Resources */,
@@ -307,6 +331,7 @@
 			files = (
 				D4E45B472576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
 				BE7FF212256D9AC20020C4C9 /* day2-input.txt in Resources */,
+				D4E45B5D2577D80E00FA8BD0 /* day2-input-2020.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,9 +346,11 @@
 				BE7FF1E8256D91A60020C4C9 /* AoC2015View.swift in Sources */,
 				BE7FF1AC256C46860020C4C9 /* ContentView.swift in Sources */,
 				BE7FF206256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */,
+				D4E45B552577D77800FA8BD0 /* Day2View2020.swift in Sources */,
 				D4E45B212575E64700FA8BD0 /* AoC2020View.swift in Sources */,
 				BE7FF1AA256C46860020C4C9 /* AdventOfCodeApp.swift in Sources */,
 				D4E45B2A2575ED0C00FA8BD0 /* Day1View2020.swift in Sources */,
+				D4E45B632577D84500FA8BD0 /* PasswordsProcessor.swift in Sources */,
 				BE7FF200256D95360020C4C9 /* NoMathView.swift in Sources */,
 				BE7FF1F1256D922A0020C4C9 /* NQLView.swift in Sources */,
 				BE7FF1D9256C46DD0020C4C9 /* NQL.swift in Sources */,
@@ -336,12 +363,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E45B412576864D00FA8BD0 /* TTFinderTests.swift in Sources */,
+				D4E45B6A2577D99400FA8BD0 /* PasswordProcessorTests.swift in Sources */,
 				BE7FF1E9256D91A60020C4C9 /* AoC2015View.swift in Sources */,
 				BE7FF1BD256C46870020C4C9 /* AdventOfCodeTests.swift in Sources */,
 				BE7FF20C256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift in Sources */,
+				D4E45B562577D77800FA8BD0 /* Day2View2020.swift in Sources */,
 				D4E45B3C2576860E00FA8BD0 /* TTFinder.swift in Sources */,
 				BE7FF207256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */,
 				BE7FF1DA256C46DD0020C4C9 /* NQL.swift in Sources */,
+				D4E45B642577D84500FA8BD0 /* PasswordsProcessor.swift in Sources */,
 				BE7FF21D256DA2990020C4C9 /* FileImporter.swift in Sources */,
 				BE7FF201256D95360020C4C9 /* NoMathView.swift in Sources */,
 				BE7FF1F2256D922A0020C4C9 /* NQLView.swift in Sources */,
