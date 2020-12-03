@@ -9,6 +9,6 @@ import SwiftUI
 
 struct Day3View2020: View {
     var body: some View {
-        Text("Day 3 view")
+        Day3MapView()
     }
 }

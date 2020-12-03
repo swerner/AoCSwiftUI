@@ -30,7 +30,7 @@ struct AoC2020View: View {
                         }
                         
                         HStack {
-                            Image(systemName: "star").foregroundColor(.yellow)
+                            Image(systemName: "star.fill").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
                             NavigationLink(destination: Day3View2020()) {
                                 Text("Day 3")
