@@ -15,6 +15,9 @@ struct Day4View2020: View {
         Text("Part 1").bold()
         Text("Total Passports Count: \(processor.passports.count)")
         //Text(processor.passportData())
+        Text("Valid Passport Count: \(processor.presentPassportCount())")
+        
+        Text("Part 2").bold()
         Text("Valid Passport Count: \(processor.validPassportCount())")
     }
 }
