@@ -9,6 +9,12 @@ import SwiftUI
 
 struct Day4View2020: View {
     var body: some View {
-        Text("Day4 View")
+        let lines = FileImporter(filename: "day4-input-2020").lines()
+        let processor = PassportProcessor(lines: lines)
+        
+        Text("Part 1").bold()
+        Text("Total Passports Count: \(processor.passports.count)")
+        //Text(processor.passportData())
+        Text("Valid Passport Count: \(processor.validPassportCount())")
     }
 }
