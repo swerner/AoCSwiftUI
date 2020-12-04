@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct AoC2020View: View {
+    @State private var selection: String? = "day4"
+    
     var body: some View {
         VStack {
             NavigationView {
@@ -16,7 +18,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star.fill").foregroundColor(.yellow)
                             Image(systemName: "star.fill").foregroundColor(.yellow)
-                            NavigationLink(destination: Day1View2020()) {
+                            NavigationLink(destination: Day1View2020(), tag: "day1", selection: $selection) {
                                 Text("Day 1")
                             }
                         }
@@ -24,7 +26,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star.fill").foregroundColor(.yellow)
                             Image(systemName: "star.fill").foregroundColor(.yellow)
-                            NavigationLink(destination: Day2View2020()) {
+                            NavigationLink(destination: Day2View2020(), tag: "day2", selection: $selection) {
                                 Text("Day 2")
                             }
                         }
@@ -32,7 +34,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star.fill").foregroundColor(.yellow)
                             Image(systemName: "star.fill").foregroundColor(.yellow)
-                            NavigationLink(destination: Day3View2020()) {
+                            NavigationLink(destination: Day3View2020(), tag: "day3", selection: $selection) {
                                 Text("Day 3")
                             }
                         }
@@ -40,7 +42,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 4")) {
+                            NavigationLink(destination: Day4View2020(), tag: "day4", selection: $selection) {
                                 Text("Day 4")
                             }
                         }
@@ -48,7 +50,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 5")) {
+                            NavigationLink(destination: Text("Day 5"), tag: "day5", selection: $selection) {
                                 Text("Day 5")
                             }
                         }
@@ -56,7 +58,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 6")) {
+                            NavigationLink(destination: Text("Day 6"), tag: "day6", selection: $selection) {
                                 Text("Day 6")
                             }
                         }
@@ -64,7 +66,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 7")) {
+                            NavigationLink(destination: Text("Day 7"), tag: "day7", selection: $selection) {
                                 Text("Day 7")
                             }
                         }
@@ -72,7 +74,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 8")) {
+                            NavigationLink(destination: Text("Day 8"), tag: "day8", selection: $selection) {
                                 Text("Day 8")
                             }
                         }
@@ -80,7 +82,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 9")) {
+                            NavigationLink(destination: Text("Day 9"), tag: "day9", selection: $selection) {
                                 Text("Day 9")
                             }
                         }
@@ -88,7 +90,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 10")) {
+                            NavigationLink(destination: Text("Day 10"), tag: "day10", selection: $selection) {
                                 Text("Day 10")
                             }
                         }
@@ -98,7 +100,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 11")) {
+                            NavigationLink(destination: Text("Day 11"), tag: "day11", selection: $selection) {
                                 Text("Day 11")
                             }
                         }
@@ -106,7 +108,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 12")) {
+                            NavigationLink(destination: Text("Day 12"), tag: "day12", selection: $selection) {
                                 Text("Day 12")
                             }
                         }
@@ -114,7 +116,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 13")) {
+                            NavigationLink(destination: Text("Day 13"), tag: "day13", selection: $selection) {
                                 Text("Day 13")
                             }
                         }
@@ -122,7 +124,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 14")) {
+                            NavigationLink(destination: Text("Day 14"), tag: "day14", selection: $selection) {
                                 Text("Day 14")
                             }
                         }
@@ -130,7 +132,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 15")) {
+                            NavigationLink(destination: Text("Day 15"), tag: "day15", selection: $selection) {
                                 Text("Day 15")
                             }
                         }
@@ -138,7 +140,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 16")) {
+                            NavigationLink(destination: Text("Day 16"), tag: "day16", selection: $selection) {
                                 Text("Day 16")
                             }
                         }
@@ -146,7 +148,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 17")) {
+                            NavigationLink(destination: Text("Day 17"), tag: "day17", selection: $selection) {
                                 Text("Day 17")
                             }
                         }
@@ -154,7 +156,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 18")) {
+                            NavigationLink(destination: Text("Day 18"), tag: "day18", selection: $selection) {
                                 Text("Day 18")
                             }
                         }
@@ -162,7 +164,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 19")) {
+                            NavigationLink(destination: Text("Day 19"), tag: "day19", selection: $selection) {
                                 Text("Day 19")
                             }
                         }
@@ -170,7 +172,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 20")) {
+                            NavigationLink(destination: Text("Day 20"), tag: "day20", selection: $selection) {
                                 Text("Day 20")
                             }
                         }
@@ -180,7 +182,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 21")) {
+                            NavigationLink(destination: Text("Day 21"), tag: "day21", selection: $selection) {
                                 Text("Day 21")
                             }
                         }
@@ -188,7 +190,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 22")) {
+                            NavigationLink(destination: Text("Day 22"), tag: "day22", selection: $selection) {
                                 Text("Day 22")
                             }
                         }
@@ -196,7 +198,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 23")) {
+                            NavigationLink(destination: Text("Day 23"), tag: "day23", selection: $selection) {
                                 Text("Day 23")
                             }
                         }
@@ -204,7 +206,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 24")) {
+                            NavigationLink(destination: Text("Day 24"), tag: "day24", selection: $selection) {
                                 Text("Day 24")
                             }
                         }
@@ -212,7 +214,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 25")) {
+                            NavigationLink(destination: Text("Day 25"), tag: "day25", selection: $selection) {
                                 Text("Day 25")
                             }
                         }
