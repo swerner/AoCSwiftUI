@@ -19,6 +19,10 @@ class BoardingPassCollection: NSObject {
     func maxSeatId() -> Int {
         return passes.map{ $0.seatID() }.max()!
     }
+    
+    func seatIds() -> [Int] {
+        return passes.map{ $0.seatID() }.sorted()
+    }
 }
 
 struct D52020View: View {
@@ -27,5 +31,14 @@ struct D52020View: View {
         let boardingPasses = BoardingPassCollection(lines)
         
         Text("Max Seat Id: \(boardingPasses.maxSeatId())")
+        
+        ScrollView {
+            VStack {
+                ForEach(Array(boardingPasses.seatIds().enumerated()), id: \.offset) { i, element in
+                    Text("Seat: \(String(element)) - \(i + 89)")
+                    
+                }
+            }
+        }
     }
 }
