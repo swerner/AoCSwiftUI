@@ -61,6 +61,14 @@
 		D4E45BA4257AF5E900FA8BD0 /* invalid-passports.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BA3257AF5E900FA8BD0 /* invalid-passports.txt */; };
 		D4E45BA5257AF5E900FA8BD0 /* invalid-passports.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BA3257AF5E900FA8BD0 /* invalid-passports.txt */; };
 		D4E45BA9257AF63D00FA8BD0 /* PassportProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BA8257AF63D00FA8BD0 /* PassportProcessorTests.swift */; };
+		D4E45BAE257BD5E800FA8BD0 /* D52020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BAD257BD5E800FA8BD0 /* D52020View.swift */; };
+		D4E45BAF257BD5E800FA8BD0 /* D52020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BAD257BD5E800FA8BD0 /* D52020View.swift */; };
+		D4E45BB5257BD6C100FA8BD0 /* d52020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BB4257BD6C100FA8BD0 /* d52020-input.txt */; };
+		D4E45BB6257BD6C100FA8BD0 /* d52020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BB4257BD6C100FA8BD0 /* d52020-input.txt */; };
+		D4E45BBC257BD6EC00FA8BD0 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BBB257BD6EC00FA8BD0 /* BoardingPass.swift */; };
+		D4E45BBD257BD6EC00FA8BD0 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BBB257BD6EC00FA8BD0 /* BoardingPass.swift */; };
+		D4E45BC3257BD85C00FA8BD0 /* BoardingPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BC2257BD85C00FA8BD0 /* BoardingPassTests.swift */; };
+		D4E45BC7257BDEB200FA8BD0 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BC6257BDEB200FA8BD0 /* ArrayExtensionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +122,11 @@
 		D4E45B9E257A802B00FA8BD0 /* d42020-sample-data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d42020-sample-data.txt"; sourceTree = "<group>"; };
 		D4E45BA3257AF5E900FA8BD0 /* invalid-passports.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "invalid-passports.txt"; sourceTree = "<group>"; };
 		D4E45BA8257AF63D00FA8BD0 /* PassportProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportProcessorTests.swift; sourceTree = "<group>"; };
+		D4E45BAD257BD5E800FA8BD0 /* D52020View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D52020View.swift; sourceTree = "<group>"; };
+		D4E45BB4257BD6C100FA8BD0 /* d52020-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "d52020-input.txt"; sourceTree = "<group>"; };
+		D4E45BBB257BD6EC00FA8BD0 /* BoardingPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPass.swift; sourceTree = "<group>"; };
+		D4E45BC2257BD85C00FA8BD0 /* BoardingPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPassTests.swift; sourceTree = "<group>"; };
+		D4E45BC6257BDEB200FA8BD0 /* ArrayExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +200,8 @@
 				D4E45B402576864D00FA8BD0 /* TTFinderTests.swift */,
 				D4E45B692577D99400FA8BD0 /* PasswordProcessorTests.swift */,
 				D4E45BA8257AF63D00FA8BD0 /* PassportProcessorTests.swift */,
+				D4E45BC2257BD85C00FA8BD0 /* BoardingPassTests.swift */,
+				D4E45BC6257BDEB200FA8BD0 /* ArrayExtensionTests.swift */,
 			);
 			path = AdventOfCodeTests;
 			sourceTree = "<group>";
@@ -240,6 +255,7 @@
 		D4E45B1F2575E62A00FA8BD0 /* 2020 */ = {
 			isa = PBXGroup;
 			children = (
+				D4E45BAC257BD5D800FA8BD0 /* Day5 */,
 				D4E45B8A2579C74200FA8BD0 /* Day4 */,
 				D4E45B6D257865AE00FA8BD0 /* Day3 */,
 				D4E45B532577D76800FA8BD0 /* Day2 */,
@@ -290,6 +306,16 @@
 				D4E45BA3257AF5E900FA8BD0 /* invalid-passports.txt */,
 			);
 			path = Day4;
+			sourceTree = "<group>";
+		};
+		D4E45BAC257BD5D800FA8BD0 /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E45BB4257BD6C100FA8BD0 /* d52020-input.txt */,
+				D4E45BAD257BD5E800FA8BD0 /* D52020View.swift */,
+				D4E45BBB257BD6EC00FA8BD0 /* BoardingPass.swift */,
+			);
+			path = Day5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +406,7 @@
 				D4E45B462576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
 				D4E45B93257A797A00FA8BD0 /* day4-input-2020.txt in Resources */,
 				BE7FF211256D9AC20020C4C9 /* day2-input.txt in Resources */,
+				D4E45BB5257BD6C100FA8BD0 /* d52020-input.txt in Resources */,
 				D4E45BA4257AF5E900FA8BD0 /* invalid-passports.txt in Resources */,
 				D4E45B7625791D8200FA8BD0 /* day3-input-2020.txt in Resources */,
 			);
@@ -396,6 +423,7 @@
 				D4E45BA0257A802B00FA8BD0 /* d42020-sample-data.txt in Resources */,
 				D4E45B5D2577D80E00FA8BD0 /* day2-input-2020.txt in Resources */,
 				D4E45BA5257AF5E900FA8BD0 /* invalid-passports.txt in Resources */,
+				D4E45BB6257BD6C100FA8BD0 /* d52020-input.txt in Resources */,
 				D4E45B7725791D8200FA8BD0 /* day3-input-2020.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +440,7 @@
 				D4E45B6F257865C400FA8BD0 /* Day3View2020.swift in Sources */,
 				BE7FF1E8256D91A60020C4C9 /* AoC2015View.swift in Sources */,
 				BE7FF1AC256C46860020C4C9 /* ContentView.swift in Sources */,
+				D4E45BAE257BD5E800FA8BD0 /* D52020View.swift in Sources */,
 				BE7FF206256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */,
 				D4E45B552577D77800FA8BD0 /* Day2View2020.swift in Sources */,
 				D4E45B212575E64700FA8BD0 /* AoC2020View.swift in Sources */,
@@ -421,6 +450,7 @@
 				BE7FF200256D95360020C4C9 /* NoMathView.swift in Sources */,
 				BE7FF1F1256D922A0020C4C9 /* NQLView.swift in Sources */,
 				D4E45B98257A79F900FA8BD0 /* PassportProcessor.swift in Sources */,
+				D4E45BBC257BD6EC00FA8BD0 /* BoardingPass.swift in Sources */,
 				BE7FF1D9256C46DD0020C4C9 /* NQL.swift in Sources */,
 				D4E45B8C2579C75100FA8BD0 /* Day4View2020.swift in Sources */,
 				BE7FF21C256DA2990020C4C9 /* FileImporter.swift in Sources */,
@@ -431,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E45BC3257BD85C00FA8BD0 /* BoardingPassTests.swift in Sources */,
 				D4E45B412576864D00FA8BD0 /* TTFinderTests.swift in Sources */,
 				D4E45B6A2577D99400FA8BD0 /* PasswordProcessorTests.swift in Sources */,
 				BE7FF1E9256D91A60020C4C9 /* AoC2015View.swift in Sources */,
@@ -438,12 +469,15 @@
 				BE7FF1BD256C46870020C4C9 /* AdventOfCodeTests.swift in Sources */,
 				BE7FF20C256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift in Sources */,
 				D4E45B562577D77800FA8BD0 /* Day2View2020.swift in Sources */,
+				D4E45BAF257BD5E800FA8BD0 /* D52020View.swift in Sources */,
 				D4E45B7E25791D9E00FA8BD0 /* Day3MapView.swift in Sources */,
 				D4E45B3C2576860E00FA8BD0 /* TTFinder.swift in Sources */,
 				BE7FF207256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */,
+				D4E45BBD257BD6EC00FA8BD0 /* BoardingPass.swift in Sources */,
 				BE7FF1DA256C46DD0020C4C9 /* NQL.swift in Sources */,
 				D4E45B642577D84500FA8BD0 /* PasswordsProcessor.swift in Sources */,
 				BE7FF21D256DA2990020C4C9 /* FileImporter.swift in Sources */,
+				D4E45BC7257BDEB200FA8BD0 /* ArrayExtensionTests.swift in Sources */,
 				D4E45B99257A79F900FA8BD0 /* PassportProcessor.swift in Sources */,
 				D4E45B8D2579C75100FA8BD0 /* Day4View2020.swift in Sources */,
 				BE7FF201256D95360020C4C9 /* NoMathView.swift in Sources */,
