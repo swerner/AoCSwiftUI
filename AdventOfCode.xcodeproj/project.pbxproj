@@ -71,6 +71,10 @@
 		D4E45BC7257BDEB200FA8BD0 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BC6257BDEB200FA8BD0 /* ArrayExtensionTests.swift */; };
 		D4E45BCC257BE94100FA8BD0 /* D62020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BCB257BE94100FA8BD0 /* D62020View.swift */; };
 		D4E45BCD257BE94100FA8BD0 /* D62020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BCB257BE94100FA8BD0 /* D62020View.swift */; };
+		D4E45BD3257D1CEF00FA8BD0 /* d62020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BD2257D1CEF00FA8BD0 /* d62020-input.txt */; };
+		D4E45BD4257D1CEF00FA8BD0 /* d62020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BD2257D1CEF00FA8BD0 /* d62020-input.txt */; };
+		D4E45BDA257D1D7300FA8BD0 /* CustomsDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BD9257D1D7300FA8BD0 /* CustomsDeclaration.swift */; };
+		D4E45BDB257D1D7300FA8BD0 /* CustomsDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BD9257D1D7300FA8BD0 /* CustomsDeclaration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +134,8 @@
 		D4E45BC2257BD85C00FA8BD0 /* BoardingPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPassTests.swift; sourceTree = "<group>"; };
 		D4E45BC6257BDEB200FA8BD0 /* ArrayExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTests.swift; sourceTree = "<group>"; };
 		D4E45BCB257BE94100FA8BD0 /* D62020View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D62020View.swift; sourceTree = "<group>"; };
+		D4E45BD2257D1CEF00FA8BD0 /* d62020-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "d62020-input.txt"; sourceTree = "<group>"; };
+		D4E45BD9257D1D7300FA8BD0 /* CustomsDeclaration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomsDeclaration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,7 +331,9 @@
 		D4E45BCA257BE93400FA8BD0 /* Day6 */ = {
 			isa = PBXGroup;
 			children = (
+				D4E45BD2257D1CEF00FA8BD0 /* d62020-input.txt */,
 				D4E45BCB257BE94100FA8BD0 /* D62020View.swift */,
+				D4E45BD9257D1D7300FA8BD0 /* CustomsDeclaration.swift */,
 			);
 			path = Day6;
 			sourceTree = "<group>";
@@ -417,6 +425,7 @@
 				D4E45B8425792BA700FA8BD0 /* test-input-d32020.txt in Resources */,
 				D4E45B462576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
 				D4E45B93257A797A00FA8BD0 /* day4-input-2020.txt in Resources */,
+				D4E45BD3257D1CEF00FA8BD0 /* d62020-input.txt in Resources */,
 				BE7FF211256D9AC20020C4C9 /* day2-input.txt in Resources */,
 				D4E45BB5257BD6C100FA8BD0 /* d52020-input.txt in Resources */,
 				D4E45BA4257AF5E900FA8BD0 /* invalid-passports.txt in Resources */,
@@ -433,6 +442,7 @@
 				D4E45B472576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
 				BE7FF212256D9AC20020C4C9 /* day2-input.txt in Resources */,
 				D4E45BA0257A802B00FA8BD0 /* d42020-sample-data.txt in Resources */,
+				D4E45BD4257D1CEF00FA8BD0 /* d62020-input.txt in Resources */,
 				D4E45B5D2577D80E00FA8BD0 /* day2-input-2020.txt in Resources */,
 				D4E45BA5257AF5E900FA8BD0 /* invalid-passports.txt in Resources */,
 				D4E45BB6257BD6C100FA8BD0 /* d52020-input.txt in Resources */,
@@ -464,6 +474,7 @@
 				BE7FF1F1256D922A0020C4C9 /* NQLView.swift in Sources */,
 				D4E45B98257A79F900FA8BD0 /* PassportProcessor.swift in Sources */,
 				D4E45BBC257BD6EC00FA8BD0 /* BoardingPass.swift in Sources */,
+				D4E45BDA257D1D7300FA8BD0 /* CustomsDeclaration.swift in Sources */,
 				BE7FF1D9256C46DD0020C4C9 /* NQL.swift in Sources */,
 				D4E45B8C2579C75100FA8BD0 /* Day4View2020.swift in Sources */,
 				BE7FF21C256DA2990020C4C9 /* FileImporter.swift in Sources */,
@@ -481,6 +492,7 @@
 				D4E45BCD257BE94100FA8BD0 /* D62020View.swift in Sources */,
 				D4E45BA9257AF63D00FA8BD0 /* PassportProcessorTests.swift in Sources */,
 				BE7FF1BD256C46870020C4C9 /* AdventOfCodeTests.swift in Sources */,
+				D4E45BDB257D1D7300FA8BD0 /* CustomsDeclaration.swift in Sources */,
 				BE7FF20C256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift in Sources */,
 				D4E45B562577D77800FA8BD0 /* Day2View2020.swift in Sources */,
 				D4E45BAF257BD5E800FA8BD0 /* D52020View.swift in Sources */,
