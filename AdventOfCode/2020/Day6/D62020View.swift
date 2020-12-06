@@ -30,6 +30,12 @@ class CustomsDeclarationCollection: NSObject {
             return memo + iter.yesCount()
         })
     }
+    
+    func totalAllYesCount() -> Int {
+        return declarations.reduce(0, { memo, iter in
+            return memo + iter.allYesCount()
+        })
+    }
 }
 
 struct D62020View: View {
@@ -38,5 +44,6 @@ struct D62020View: View {
         
         Text("Day 6").bold()
         Text("Total Yes Count: \(declarations.totalYesCount())")
+        Text("Total All Yes Count: \(declarations.totalAllYesCount())")
     }
 }
