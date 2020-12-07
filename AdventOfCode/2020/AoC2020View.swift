@@ -64,7 +64,7 @@ struct AoC2020View: View {
                         }
                         
                         HStack {
-                            Image(systemName: "star").foregroundColor(.yellow)
+                            Image(systemName: "star.fill").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
                             NavigationLink(destination: D72020View(), tag: "day7", selection: $selection) {
                                 Text("Day 7")
