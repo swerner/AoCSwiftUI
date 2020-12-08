@@ -77,12 +77,14 @@
 		D4E45BDB257D1D7300FA8BD0 /* CustomsDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BD9257D1D7300FA8BD0 /* CustomsDeclaration.swift */; };
 		D4E45BE2257D277B00FA8BD0 /* D72020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BE1257D277B00FA8BD0 /* D72020View.swift */; };
 		D4E45BE3257D277B00FA8BD0 /* D72020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BE1257D277B00FA8BD0 /* D72020View.swift */; };
-		D4E45BE9257E6CE000FA8BD0 /* D72020-Input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BE8257E6CE000FA8BD0 /* D72020-Input.txt */; };
-		D4E45BEA257E6CE000FA8BD0 /* D72020-Input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BE8257E6CE000FA8BD0 /* D72020-Input.txt */; };
+		D4E45BE9257E6CE000FA8BD0 /* d72020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BE8257E6CE000FA8BD0 /* d72020-input.txt */; };
+		D4E45BEA257E6CE000FA8BD0 /* d72020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BE8257E6CE000FA8BD0 /* d72020-input.txt */; };
 		D4E45BF0257E6DE200FA8BD0 /* BaggingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BEF257E6DE200FA8BD0 /* BaggingSystem.swift */; };
 		D4E45BF1257E6DE200FA8BD0 /* BaggingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45BEF257E6DE200FA8BD0 /* BaggingSystem.swift */; };
 		D4E45BF7257E718D00FA8BD0 /* d72020-testinput.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BF6257E718D00FA8BD0 /* d72020-testinput.txt */; };
 		D4E45BF8257E718D00FA8BD0 /* d72020-testinput.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BF6257E718D00FA8BD0 /* d72020-testinput.txt */; };
+		D4E45BFE257EFEC200FA8BD0 /* d72020-input-test2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BFD257EFEC200FA8BD0 /* d72020-input-test2.txt */; };
+		D4E45BFF257EFEC200FA8BD0 /* d72020-input-test2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BFD257EFEC200FA8BD0 /* d72020-input-test2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,9 +147,10 @@
 		D4E45BD2257D1CEF00FA8BD0 /* d62020-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "d62020-input.txt"; sourceTree = "<group>"; };
 		D4E45BD9257D1D7300FA8BD0 /* CustomsDeclaration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomsDeclaration.swift; sourceTree = "<group>"; };
 		D4E45BE1257D277B00FA8BD0 /* D72020View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D72020View.swift; sourceTree = "<group>"; };
-		D4E45BE8257E6CE000FA8BD0 /* D72020-Input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "D72020-Input.txt"; sourceTree = "<group>"; };
+		D4E45BE8257E6CE000FA8BD0 /* d72020-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "d72020-input.txt"; sourceTree = "<group>"; };
 		D4E45BEF257E6DE200FA8BD0 /* BaggingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggingSystem.swift; sourceTree = "<group>"; };
 		D4E45BF6257E718D00FA8BD0 /* d72020-testinput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d72020-testinput.txt"; sourceTree = "<group>"; };
+		D4E45BFD257EFEC200FA8BD0 /* d72020-input-test2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d72020-input-test2.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,10 +357,11 @@
 		D4E45BE0257D276A00FA8BD0 /* Day7 */ = {
 			isa = PBXGroup;
 			children = (
-				D4E45BE8257E6CE000FA8BD0 /* D72020-Input.txt */,
+				D4E45BE8257E6CE000FA8BD0 /* d72020-input.txt */,
 				D4E45BE1257D277B00FA8BD0 /* D72020View.swift */,
 				D4E45BEF257E6DE200FA8BD0 /* BaggingSystem.swift */,
 				D4E45BF6257E718D00FA8BD0 /* d72020-testinput.txt */,
+				D4E45BFD257EFEC200FA8BD0 /* d72020-input-test2.txt */,
 			);
 			path = Day7;
 			sourceTree = "<group>";
@@ -447,6 +451,7 @@
 				D4E45BF7257E718D00FA8BD0 /* d72020-testinput.txt in Resources */,
 				BE7FF1AE256C46870020C4C9 /* Assets.xcassets in Resources */,
 				D4E45B9F257A802B00FA8BD0 /* d42020-sample-data.txt in Resources */,
+				D4E45BFE257EFEC200FA8BD0 /* d72020-input-test2.txt in Resources */,
 				D4E45B8425792BA700FA8BD0 /* test-input-d32020.txt in Resources */,
 				D4E45B462576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
 				D4E45B93257A797A00FA8BD0 /* day4-input-2020.txt in Resources */,
@@ -454,7 +459,7 @@
 				BE7FF211256D9AC20020C4C9 /* day2-input.txt in Resources */,
 				D4E45BB5257BD6C100FA8BD0 /* d52020-input.txt in Resources */,
 				D4E45BA4257AF5E900FA8BD0 /* invalid-passports.txt in Resources */,
-				D4E45BE9257E6CE000FA8BD0 /* D72020-Input.txt in Resources */,
+				D4E45BE9257E6CE000FA8BD0 /* d72020-input.txt in Resources */,
 				D4E45B7625791D8200FA8BD0 /* day3-input-2020.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,9 +468,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E45BFF257EFEC200FA8BD0 /* d72020-input-test2.txt in Resources */,
 				D4E45B8525792BA700FA8BD0 /* test-input-d32020.txt in Resources */,
 				D4E45B94257A797A00FA8BD0 /* day4-input-2020.txt in Resources */,
-				D4E45BEA257E6CE000FA8BD0 /* D72020-Input.txt in Resources */,
+				D4E45BEA257E6CE000FA8BD0 /* d72020-input.txt in Resources */,
 				D4E45B472576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
 				BE7FF212256D9AC20020C4C9 /* day2-input.txt in Resources */,
 				D4E45BA0257A802B00FA8BD0 /* d42020-sample-data.txt in Resources */,

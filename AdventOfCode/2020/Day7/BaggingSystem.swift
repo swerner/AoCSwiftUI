@@ -68,4 +68,15 @@ class BaggingSystem: NSObject {
         
         return count
     }
+    
+    func numBagsIn(bagColor: String) -> Int {
+        var count = 1
+        let rules = baggingRules[bagColor, default: []]
+        
+        for rule in rules {
+            count += rule.quantity * numBagsIn(bagColor: rule.color)
+        }
+        
+        return count
+    }
 }
