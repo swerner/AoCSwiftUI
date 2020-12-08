@@ -85,6 +85,8 @@
 		D4E45BF8257E718D00FA8BD0 /* d72020-testinput.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BF6257E718D00FA8BD0 /* d72020-testinput.txt */; };
 		D4E45BFE257EFEC200FA8BD0 /* d72020-input-test2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BFD257EFEC200FA8BD0 /* d72020-input-test2.txt */; };
 		D4E45BFF257EFEC200FA8BD0 /* d72020-input-test2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45BFD257EFEC200FA8BD0 /* d72020-input-test2.txt */; };
+		D4E45C06257EFF6C00FA8BD0 /* D82020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C05257EFF6C00FA8BD0 /* D82020View.swift */; };
+		D4E45C07257EFF6C00FA8BD0 /* D82020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C05257EFF6C00FA8BD0 /* D82020View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +153,7 @@
 		D4E45BEF257E6DE200FA8BD0 /* BaggingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggingSystem.swift; sourceTree = "<group>"; };
 		D4E45BF6257E718D00FA8BD0 /* d72020-testinput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d72020-testinput.txt"; sourceTree = "<group>"; };
 		D4E45BFD257EFEC200FA8BD0 /* d72020-input-test2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d72020-input-test2.txt"; sourceTree = "<group>"; };
+		D4E45C05257EFF6C00FA8BD0 /* D82020View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D82020View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +282,7 @@
 		D4E45B1F2575E62A00FA8BD0 /* 2020 */ = {
 			isa = PBXGroup;
 			children = (
+				D4E45C04257EFF5B00FA8BD0 /* Day8 */,
 				D4E45BE0257D276A00FA8BD0 /* Day7 */,
 				D4E45BCA257BE93400FA8BD0 /* Day6 */,
 				D4E45BAC257BD5D800FA8BD0 /* Day5 */,
@@ -364,6 +368,14 @@
 				D4E45BFD257EFEC200FA8BD0 /* d72020-input-test2.txt */,
 			);
 			path = Day7;
+			sourceTree = "<group>";
+		};
+		D4E45C04257EFF5B00FA8BD0 /* Day8 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E45C05257EFF6C00FA8BD0 /* D82020View.swift */,
+			);
+			path = Day8;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -497,6 +509,7 @@
 				BE7FF1E8256D91A60020C4C9 /* AoC2015View.swift in Sources */,
 				BE7FF1AC256C46860020C4C9 /* ContentView.swift in Sources */,
 				D4E45BAE257BD5E800FA8BD0 /* D52020View.swift in Sources */,
+				D4E45C06257EFF6C00FA8BD0 /* D82020View.swift in Sources */,
 				BE7FF206256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */,
 				D4E45B552577D77800FA8BD0 /* Day2View2020.swift in Sources */,
 				D4E45B212575E64700FA8BD0 /* AoC2020View.swift in Sources */,
@@ -523,6 +536,7 @@
 			files = (
 				D4E45BC3257BD85C00FA8BD0 /* BoardingPassTests.swift in Sources */,
 				D4E45B412576864D00FA8BD0 /* TTFinderTests.swift in Sources */,
+				D4E45C07257EFF6C00FA8BD0 /* D82020View.swift in Sources */,
 				D4E45B6A2577D99400FA8BD0 /* PasswordProcessorTests.swift in Sources */,
 				BE7FF1E9256D91A60020C4C9 /* AoC2015View.swift in Sources */,
 				D4E45BCD257BE94100FA8BD0 /* D62020View.swift in Sources */,
