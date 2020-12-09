@@ -102,6 +102,8 @@
 		D4E45C3825810EA400FA8BD0 /* XMASCypher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C3725810EA400FA8BD0 /* XMASCypher.swift */; };
 		D4E45C3925810EA400FA8BD0 /* XMASCypher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C3725810EA400FA8BD0 /* XMASCypher.swift */; };
 		D4E45C3F25810FEA00FA8BD0 /* XMASCypherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C3E25810FEA00FA8BD0 /* XMASCypherTests.swift */; };
+		D4E45C4425811CD900FA8BD0 /* D102020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C4325811CD900FA8BD0 /* D102020View.swift */; };
+		D4E45C4525811CD900FA8BD0 /* D102020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C4325811CD900FA8BD0 /* D102020View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,6 +179,7 @@
 		D4E45C3025810E4700FA8BD0 /* d92020-input-test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d92020-input-test.txt"; sourceTree = "<group>"; };
 		D4E45C3725810EA400FA8BD0 /* XMASCypher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMASCypher.swift; sourceTree = "<group>"; };
 		D4E45C3E25810FEA00FA8BD0 /* XMASCypherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMASCypherTests.swift; sourceTree = "<group>"; };
+		D4E45C4325811CD900FA8BD0 /* D102020View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D102020View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +309,7 @@
 		D4E45B1F2575E62A00FA8BD0 /* 2020 */ = {
 			isa = PBXGroup;
 			children = (
+				D4E45C4225811CCA00FA8BD0 /* Day10 */,
 				D4E45C212580608400FA8BD0 /* Day 9 */,
 				D4E45C04257EFF5B00FA8BD0 /* Day8 */,
 				D4E45BE0257D276A00FA8BD0 /* Day7 */,
@@ -415,6 +419,14 @@
 				D4E45C3725810EA400FA8BD0 /* XMASCypher.swift */,
 			);
 			path = "Day 9";
+			sourceTree = "<group>";
+		};
+		D4E45C4225811CCA00FA8BD0 /* Day10 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E45C4325811CD900FA8BD0 /* D102020View.swift */,
+			);
+			path = Day10;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -562,6 +574,7 @@
 				D4E45B552577D77800FA8BD0 /* Day2View2020.swift in Sources */,
 				D4E45B212575E64700FA8BD0 /* AoC2020View.swift in Sources */,
 				D4E45C232580609500FA8BD0 /* D92020View.swift in Sources */,
+				D4E45C4425811CD900FA8BD0 /* D102020View.swift in Sources */,
 				BE7FF1AA256C46860020C4C9 /* AdventOfCodeApp.swift in Sources */,
 				D4E45B2A2575ED0C00FA8BD0 /* Day1View2020.swift in Sources */,
 				D4E45BE2257D277B00FA8BD0 /* D72020View.swift in Sources */,
@@ -589,6 +602,7 @@
 				D4E45C07257EFF6C00FA8BD0 /* D82020View.swift in Sources */,
 				D4E45B6A2577D99400FA8BD0 /* PasswordProcessorTests.swift in Sources */,
 				BE7FF1E9256D91A60020C4C9 /* AoC2015View.swift in Sources */,
+				D4E45C4525811CD900FA8BD0 /* D102020View.swift in Sources */,
 				D4E45BCD257BE94100FA8BD0 /* D62020View.swift in Sources */,
 				D4E45BA9257AF63D00FA8BD0 /* PassportProcessorTests.swift in Sources */,
 				D4E45C3F25810FEA00FA8BD0 /* XMASCypherTests.swift in Sources */,
