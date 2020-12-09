@@ -95,6 +95,13 @@
 		D4E45C1A257FBB2A00FA8BD0 /* d82020-input-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C18257FBB2A00FA8BD0 /* d82020-input-test.txt */; };
 		D4E45C232580609500FA8BD0 /* D92020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C222580609500FA8BD0 /* D92020View.swift */; };
 		D4E45C242580609500FA8BD0 /* D92020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C222580609500FA8BD0 /* D92020View.swift */; };
+		D4E45C2A25810E3100FA8BD0 /* d92020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C2925810E3100FA8BD0 /* d92020-input.txt */; };
+		D4E45C2B25810E3100FA8BD0 /* d92020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C2925810E3100FA8BD0 /* d92020-input.txt */; };
+		D4E45C3125810E4700FA8BD0 /* d92020-input-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C3025810E4700FA8BD0 /* d92020-input-test.txt */; };
+		D4E45C3225810E4700FA8BD0 /* d92020-input-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C3025810E4700FA8BD0 /* d92020-input-test.txt */; };
+		D4E45C3825810EA400FA8BD0 /* XMASCypher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C3725810EA400FA8BD0 /* XMASCypher.swift */; };
+		D4E45C3925810EA400FA8BD0 /* XMASCypher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C3725810EA400FA8BD0 /* XMASCypher.swift */; };
+		D4E45C3F25810FEA00FA8BD0 /* XMASCypherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C3E25810FEA00FA8BD0 /* XMASCypherTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +173,10 @@
 		D4E45C11257FBB1300FA8BD0 /* d82020-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "d82020-input.txt"; sourceTree = "<group>"; };
 		D4E45C18257FBB2A00FA8BD0 /* d82020-input-test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d82020-input-test.txt"; sourceTree = "<group>"; };
 		D4E45C222580609500FA8BD0 /* D92020View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D92020View.swift; sourceTree = "<group>"; };
+		D4E45C2925810E3100FA8BD0 /* d92020-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "d92020-input.txt"; sourceTree = "<group>"; };
+		D4E45C3025810E4700FA8BD0 /* d92020-input-test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d92020-input-test.txt"; sourceTree = "<group>"; };
+		D4E45C3725810EA400FA8BD0 /* XMASCypher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMASCypher.swift; sourceTree = "<group>"; };
+		D4E45C3E25810FEA00FA8BD0 /* XMASCypherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMASCypherTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +252,7 @@
 				D4E45BA8257AF63D00FA8BD0 /* PassportProcessorTests.swift */,
 				D4E45BC2257BD85C00FA8BD0 /* BoardingPassTests.swift */,
 				D4E45BC6257BDEB200FA8BD0 /* ArrayExtensionTests.swift */,
+				D4E45C3E25810FEA00FA8BD0 /* XMASCypherTests.swift */,
 			);
 			path = AdventOfCodeTests;
 			sourceTree = "<group>";
@@ -397,7 +409,10 @@
 		D4E45C212580608400FA8BD0 /* Day 9 */ = {
 			isa = PBXGroup;
 			children = (
+				D4E45C2925810E3100FA8BD0 /* d92020-input.txt */,
 				D4E45C222580609500FA8BD0 /* D92020View.swift */,
+				D4E45C3025810E4700FA8BD0 /* d92020-input-test.txt */,
+				D4E45C3725810EA400FA8BD0 /* XMASCypher.swift */,
 			);
 			path = "Day 9";
 			sourceTree = "<group>";
@@ -492,12 +507,14 @@
 				D4E45B8425792BA700FA8BD0 /* test-input-d32020.txt in Resources */,
 				D4E45B462576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
 				D4E45B93257A797A00FA8BD0 /* day4-input-2020.txt in Resources */,
+				D4E45C3125810E4700FA8BD0 /* d92020-input-test.txt in Resources */,
 				D4E45BD3257D1CEF00FA8BD0 /* d62020-input.txt in Resources */,
 				BE7FF211256D9AC20020C4C9 /* day2-input.txt in Resources */,
 				D4E45BB5257BD6C100FA8BD0 /* d52020-input.txt in Resources */,
 				D4E45BA4257AF5E900FA8BD0 /* invalid-passports.txt in Resources */,
 				D4E45BE9257E6CE000FA8BD0 /* d72020-input.txt in Resources */,
 				D4E45B7625791D8200FA8BD0 /* day3-input-2020.txt in Resources */,
+				D4E45C2A25810E3100FA8BD0 /* d92020-input.txt in Resources */,
 				D4E45C19257FBB2A00FA8BD0 /* d82020-input-test.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,11 +525,13 @@
 			files = (
 				D4E45BFF257EFEC200FA8BD0 /* d72020-input-test2.txt in Resources */,
 				D4E45C13257FBB1300FA8BD0 /* d82020-input.txt in Resources */,
+				D4E45C2B25810E3100FA8BD0 /* d92020-input.txt in Resources */,
 				D4E45B8525792BA700FA8BD0 /* test-input-d32020.txt in Resources */,
 				D4E45B94257A797A00FA8BD0 /* day4-input-2020.txt in Resources */,
 				D4E45BEA257E6CE000FA8BD0 /* d72020-input.txt in Resources */,
 				D4E45B472576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
 				BE7FF212256D9AC20020C4C9 /* day2-input.txt in Resources */,
+				D4E45C3225810E4700FA8BD0 /* d92020-input-test.txt in Resources */,
 				D4E45BA0257A802B00FA8BD0 /* d42020-sample-data.txt in Resources */,
 				D4E45BD4257D1CEF00FA8BD0 /* d62020-input.txt in Resources */,
 				D4E45C1A257FBB2A00FA8BD0 /* d82020-input-test.txt in Resources */,
@@ -548,6 +567,7 @@
 				D4E45BE2257D277B00FA8BD0 /* D72020View.swift in Sources */,
 				D4E45B632577D84500FA8BD0 /* PasswordsProcessor.swift in Sources */,
 				D4E45BCC257BE94100FA8BD0 /* D62020View.swift in Sources */,
+				D4E45C3825810EA400FA8BD0 /* XMASCypher.swift in Sources */,
 				BE7FF200256D95360020C4C9 /* NoMathView.swift in Sources */,
 				D4E45BF0257E6DE200FA8BD0 /* BaggingSystem.swift in Sources */,
 				BE7FF1F1256D922A0020C4C9 /* NQLView.swift in Sources */,
@@ -571,6 +591,7 @@
 				BE7FF1E9256D91A60020C4C9 /* AoC2015View.swift in Sources */,
 				D4E45BCD257BE94100FA8BD0 /* D62020View.swift in Sources */,
 				D4E45BA9257AF63D00FA8BD0 /* PassportProcessorTests.swift in Sources */,
+				D4E45C3F25810FEA00FA8BD0 /* XMASCypherTests.swift in Sources */,
 				BE7FF1BD256C46870020C4C9 /* AdventOfCodeTests.swift in Sources */,
 				D4E45BDB257D1D7300FA8BD0 /* CustomsDeclaration.swift in Sources */,
 				BE7FF20C256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift in Sources */,
@@ -580,6 +601,7 @@
 				D4E45C0E257FBAE200FA8BD0 /* InstructionProcessor.swift in Sources */,
 				D4E45B3C2576860E00FA8BD0 /* TTFinder.swift in Sources */,
 				BE7FF207256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */,
+				D4E45C3925810EA400FA8BD0 /* XMASCypher.swift in Sources */,
 				D4E45BBD257BD6EC00FA8BD0 /* BoardingPass.swift in Sources */,
 				D4E45BE3257D277B00FA8BD0 /* D72020View.swift in Sources */,
 				BE7FF1DA256C46DD0020C4C9 /* NQL.swift in Sources */,

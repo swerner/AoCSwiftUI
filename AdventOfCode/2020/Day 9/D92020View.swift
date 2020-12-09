@@ -9,6 +9,8 @@ import SwiftUI
 
 struct D92020View: View {
     var body: some View {
-        Text("Day 9")
+        var cypher = XMASCypher(FileImporter(filename: "d92020-input").lines())
+        Text("Part 1").bold()
+        Text("First Invalid Number: \(cypher.firstInvalidNumber())")
     }
 }
