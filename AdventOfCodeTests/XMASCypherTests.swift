@@ -91,4 +91,11 @@ class XMASCypherTests: XCTestCase {
         
         XCTAssertEqual(cypher.candidateNumberList(), [25, 47, 40, 62, 55])
     }
+    
+    func testFindContiguousSet() throws {
+        let testValues = FileImporter.init(filename: "d92020-input-test").lines()
+        var cypher = XMASCypher(testValues, preamble: 5)
+        
+        XCTAssertEqual(cypher.findContiguousSet(target: 127), [15, 25, 47, 40])
+    }
 }

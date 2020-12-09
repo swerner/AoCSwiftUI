@@ -45,4 +45,28 @@ class XMASCypher: NSObject {
         
         return -1
     }
+    
+    func findContiguousSet(target: Int) -> [Int] {
+        var answer: [Int] = []
+        var searchHeadIndex = 1
+        var stepBackIndex = searchHeadIndex - 1
+        
+        while searchHeadIndex <= allData.count && allData[searchHeadIndex] < target {
+            var tempList: [Int] = [allData[searchHeadIndex]]
+            stepBackIndex = searchHeadIndex - 1
+            
+            while tempList.reduce(0, +) < target && stepBackIndex >= 0 {
+                tempList.append(allData[stepBackIndex])
+                stepBackIndex -= 1
+            }
+            
+            if tempList.reduce(0, +) == target {
+                return tempList.reversed()
+            }
+            
+            searchHeadIndex += 1
+        }
+        
+        return answer
+    }
 }
