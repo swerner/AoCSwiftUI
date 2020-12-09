@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AoC2020View: View {
-    @State private var selection: String? = "day8"
+    @State private var selection: String? = "day9"
     
     var body: some View {
         VStack {
@@ -73,7 +73,7 @@ struct AoC2020View: View {
                         
                         HStack {
                             Image(systemName: "star.fill").foregroundColor(.yellow)
-                            Image(systemName: "star").foregroundColor(.yellow)
+                            Image(systemName: "star.fill").foregroundColor(.yellow)
                             NavigationLink(destination: D82020View(), tag: "day8", selection: $selection) {
                                 Text("Day 8")
                             }
@@ -82,7 +82,7 @@ struct AoC2020View: View {
                         HStack {
                             Image(systemName: "star").foregroundColor(.yellow)
                             Image(systemName: "star").foregroundColor(.yellow)
-                            NavigationLink(destination: Text("Day 9"), tag: "day9", selection: $selection) {
+                            NavigationLink(destination: D92020View(), tag: "day9", selection: $selection) {
                                 Text("Day 9")
                             }
                         }
