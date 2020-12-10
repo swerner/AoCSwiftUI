@@ -104,6 +104,12 @@
 		D4E45C3F25810FEA00FA8BD0 /* XMASCypherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C3E25810FEA00FA8BD0 /* XMASCypherTests.swift */; };
 		D4E45C4425811CD900FA8BD0 /* D102020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C4325811CD900FA8BD0 /* D102020View.swift */; };
 		D4E45C4525811CD900FA8BD0 /* D102020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C4325811CD900FA8BD0 /* D102020View.swift */; };
+		D4E45C56258261E600FA8BD0 /* d102020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C55258261E600FA8BD0 /* d102020-input.txt */; };
+		D4E45C57258261E600FA8BD0 /* d102020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C55258261E600FA8BD0 /* d102020-input.txt */; };
+		D4E45C682582635500FA8BD0 /* d102020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C672582635500FA8BD0 /* d102020-input.txt */; };
+		D4E45C692582635500FA8BD0 /* d102020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C672582635500FA8BD0 /* d102020-input.txt */; };
+		D4E45C712582644400FA8BD0 /* d102020-input-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C702582644400FA8BD0 /* d102020-input-test.txt */; };
+		D4E45C722582644400FA8BD0 /* d102020-input-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C702582644400FA8BD0 /* d102020-input-test.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +186,9 @@
 		D4E45C3725810EA400FA8BD0 /* XMASCypher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMASCypher.swift; sourceTree = "<group>"; };
 		D4E45C3E25810FEA00FA8BD0 /* XMASCypherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMASCypherTests.swift; sourceTree = "<group>"; };
 		D4E45C4325811CD900FA8BD0 /* D102020View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D102020View.swift; sourceTree = "<group>"; };
+		D4E45C55258261E600FA8BD0 /* d102020-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "d102020-input.txt"; sourceTree = "<group>"; };
+		D4E45C672582635500FA8BD0 /* d102020-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "d102020-input.txt"; sourceTree = "<group>"; };
+		D4E45C702582644400FA8BD0 /* d102020-input-test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d102020-input-test.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -425,6 +434,9 @@
 			isa = PBXGroup;
 			children = (
 				D4E45C4325811CD900FA8BD0 /* D102020View.swift */,
+				D4E45C55258261E600FA8BD0 /* d102020-input.txt */,
+				D4E45C672582635500FA8BD0 /* d102020-input.txt */,
+				D4E45C702582644400FA8BD0 /* d102020-input-test.txt */,
 			);
 			path = Day10;
 			sourceTree = "<group>";
@@ -513,6 +525,7 @@
 				D4E45C12257FBB1300FA8BD0 /* d82020-input.txt in Resources */,
 				D4E45B5C2577D80E00FA8BD0 /* day2-input-2020.txt in Resources */,
 				D4E45BF7257E718D00FA8BD0 /* d72020-testinput.txt in Resources */,
+				D4E45C682582635500FA8BD0 /* d102020-input.txt in Resources */,
 				BE7FF1AE256C46870020C4C9 /* Assets.xcassets in Resources */,
 				D4E45B9F257A802B00FA8BD0 /* d42020-sample-data.txt in Resources */,
 				D4E45BFE257EFEC200FA8BD0 /* d72020-input-test2.txt in Resources */,
@@ -523,7 +536,9 @@
 				D4E45BD3257D1CEF00FA8BD0 /* d62020-input.txt in Resources */,
 				BE7FF211256D9AC20020C4C9 /* day2-input.txt in Resources */,
 				D4E45BB5257BD6C100FA8BD0 /* d52020-input.txt in Resources */,
+				D4E45C712582644400FA8BD0 /* d102020-input-test.txt in Resources */,
 				D4E45BA4257AF5E900FA8BD0 /* invalid-passports.txt in Resources */,
+				D4E45C56258261E600FA8BD0 /* d102020-input.txt in Resources */,
 				D4E45BE9257E6CE000FA8BD0 /* d72020-input.txt in Resources */,
 				D4E45B7625791D8200FA8BD0 /* day3-input-2020.txt in Resources */,
 				D4E45C2A25810E3100FA8BD0 /* d92020-input.txt in Resources */,
@@ -541,11 +556,14 @@
 				D4E45B8525792BA700FA8BD0 /* test-input-d32020.txt in Resources */,
 				D4E45B94257A797A00FA8BD0 /* day4-input-2020.txt in Resources */,
 				D4E45BEA257E6CE000FA8BD0 /* d72020-input.txt in Resources */,
+				D4E45C692582635500FA8BD0 /* d102020-input.txt in Resources */,
 				D4E45B472576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
+				D4E45C57258261E600FA8BD0 /* d102020-input.txt in Resources */,
 				BE7FF212256D9AC20020C4C9 /* day2-input.txt in Resources */,
 				D4E45C3225810E4700FA8BD0 /* d92020-input-test.txt in Resources */,
 				D4E45BA0257A802B00FA8BD0 /* d42020-sample-data.txt in Resources */,
 				D4E45BD4257D1CEF00FA8BD0 /* d62020-input.txt in Resources */,
+				D4E45C722582644400FA8BD0 /* d102020-input-test.txt in Resources */,
 				D4E45C1A257FBB2A00FA8BD0 /* d82020-input-test.txt in Resources */,
 				D4E45B5D2577D80E00FA8BD0 /* day2-input-2020.txt in Resources */,
 				D4E45BA5257AF5E900FA8BD0 /* invalid-passports.txt in Resources */,
