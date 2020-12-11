@@ -82,6 +82,83 @@ class SeatMap: NSObject {
         self.seats = newMap
     }
     
+    func step2() {
+        var newMap: [String:Seat] = [:]
+        
+        for (seatPosition, seat) in seats {
+            let occupiedCount = visibleOccupiedCount(position: SeatPosition(description: seatPosition))
+            
+            if seat.status == "L" && occupiedCount == 0 {
+                newMap[seatPosition] = Seat(status: "#")
+            } else if seat.status == "#" && occupiedCount >= 5 {
+                newMap[seatPosition] = Seat(status: "L")
+            } else {
+                newMap[seatPosition] = seat
+            }
+        }
+        
+        self.seats = newMap
+    }
+    
+    func occupiedSeatsInDirection(startPosition: SeatPosition, rowStep: Int, columnStep: Int) -> Bool {
+        var currentRow = startPosition.row + rowStep
+        var currentColumn = startPosition.column + columnStep
+        
+        while self.seats["\(currentRow),\(currentColumn)"] != nil {
+            if self.seats["\(currentRow),\(currentColumn)"]!.status == "#" {
+                return true
+            }
+            
+            if self.seats["\(currentRow),\(currentColumn)"]!.status == "L" {
+                return false
+            }
+            
+            currentRow += rowStep
+            currentColumn += columnStep
+        }
+        
+        return false
+    }
+    
+    func visibleOccupiedCount(position: SeatPosition) -> Int {
+        var count = 0
+        
+        // Up
+        if occupiedSeatsInDirection(startPosition: position, rowStep: 1, columnStep: 0) {
+            count += 1
+        }
+        // Down
+        if occupiedSeatsInDirection(startPosition: position, rowStep: -1, columnStep: 0) {
+            count += 1
+        }
+        // Left
+        if occupiedSeatsInDirection(startPosition: position, rowStep: 0, columnStep: -1) {
+            count += 1
+        }
+        // Right
+        if occupiedSeatsInDirection(startPosition: position, rowStep: 0, columnStep: 1) {
+            count += 1
+        }
+        // Top Left
+        if occupiedSeatsInDirection(startPosition: position, rowStep: 1, columnStep: -1) {
+            count += 1
+        }
+        // Top Right
+        if occupiedSeatsInDirection(startPosition: position, rowStep: 1, columnStep: 1) {
+            count += 1
+        }
+        // Bottom Left
+        if occupiedSeatsInDirection(startPosition: position, rowStep: -1, columnStep: -1) {
+            count += 1
+        }
+        // Bottom Right
+        if occupiedSeatsInDirection(startPosition: position, rowStep: -1, columnStep: 1) {
+            count += 1
+        }
+        
+        return count
+    }
+    
     func occupiedSeatCount() -> Int {
         var count = 0
         

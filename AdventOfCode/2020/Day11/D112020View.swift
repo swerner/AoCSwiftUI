@@ -26,6 +26,18 @@ struct D112020View: View {
         } ) {
             Text("Step")
         }
+        
+        
+        Text("Part 2").bold()
+        
+        Button(action: {
+            seatMap.step2()
+            seatDisplay = seatMap.display()
+            seatCount = seatMap.occupiedSeatCount()
+        }) {
+            Text("Step")
+        }
+        
         Text("Occupied Seats: \(seatCount)")
         ScrollView {
             Text(seatDisplay).lineLimit(nil).font(.system(size: 14, design: .monospaced))

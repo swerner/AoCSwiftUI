@@ -122,6 +122,13 @@
 		D4E45C922583AD4400FA8BD0 /* SeatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C902583AD4400FA8BD0 /* SeatMap.swift */; };
 		D4E45C962583B28400FA8BD0 /* d112020-input-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C952583B28400FA8BD0 /* d112020-input-test.txt */; };
 		D4E45C972583B28400FA8BD0 /* d112020-input-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C952583B28400FA8BD0 /* d112020-input-test.txt */; };
+		D4E45C9D2583BC2700FA8BD0 /* SeatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C9C2583BC2700FA8BD0 /* SeatMapTests.swift */; };
+		D4E45CA12583BC8400FA8BD0 /* d112020-p2-simpletest.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45CA02583BC8400FA8BD0 /* d112020-p2-simpletest.txt */; };
+		D4E45CA22583BC8400FA8BD0 /* d112020-p2-simpletest.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45CA02583BC8400FA8BD0 /* d112020-p2-simpletest.txt */; };
+		D4E45CA62583BC9D00FA8BD0 /* d112020-p2-simpletest2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45CA52583BC9D00FA8BD0 /* d112020-p2-simpletest2.txt */; };
+		D4E45CA72583BC9D00FA8BD0 /* d112020-p2-simpletest2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45CA52583BC9D00FA8BD0 /* d112020-p2-simpletest2.txt */; };
+		D4E45CAD2583BCB600FA8BD0 /* d112020-p2-simpletest3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45CAC2583BCB600FA8BD0 /* d112020-p2-simpletest3.txt */; };
+		D4E45CAE2583BCB600FA8BD0 /* d112020-p2-simpletest3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45CAC2583BCB600FA8BD0 /* d112020-p2-simpletest3.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,6 +214,10 @@
 		D4E45C892583AB0500FA8BD0 /* D112020View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D112020View.swift; sourceTree = "<group>"; };
 		D4E45C902583AD4400FA8BD0 /* SeatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatMap.swift; sourceTree = "<group>"; };
 		D4E45C952583B28400FA8BD0 /* d112020-input-test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d112020-input-test.txt"; sourceTree = "<group>"; };
+		D4E45C9C2583BC2700FA8BD0 /* SeatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatMapTests.swift; sourceTree = "<group>"; };
+		D4E45CA02583BC8400FA8BD0 /* d112020-p2-simpletest.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d112020-p2-simpletest.txt"; sourceTree = "<group>"; };
+		D4E45CA52583BC9D00FA8BD0 /* d112020-p2-simpletest2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d112020-p2-simpletest2.txt"; sourceTree = "<group>"; };
+		D4E45CAC2583BCB600FA8BD0 /* d112020-p2-simpletest3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d112020-p2-simpletest3.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +294,7 @@
 				D4E45BC2257BD85C00FA8BD0 /* BoardingPassTests.swift */,
 				D4E45BC6257BDEB200FA8BD0 /* ArrayExtensionTests.swift */,
 				D4E45C3E25810FEA00FA8BD0 /* XMASCypherTests.swift */,
+				D4E45C9C2583BC2700FA8BD0 /* SeatMapTests.swift */,
 			);
 			path = AdventOfCodeTests;
 			sourceTree = "<group>";
@@ -469,6 +481,9 @@
 				D4E45C892583AB0500FA8BD0 /* D112020View.swift */,
 				D4E45C902583AD4400FA8BD0 /* SeatMap.swift */,
 				D4E45C952583B28400FA8BD0 /* d112020-input-test.txt */,
+				D4E45CA02583BC8400FA8BD0 /* d112020-p2-simpletest.txt */,
+				D4E45CA52583BC9D00FA8BD0 /* d112020-p2-simpletest2.txt */,
+				D4E45CAC2583BCB600FA8BD0 /* d112020-p2-simpletest3.txt */,
 			);
 			path = Day11;
 			sourceTree = "<group>";
@@ -554,9 +569,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7FF1B1256C46870020C4C9 /* Preview Assets.xcassets in Resources */,
+				D4E45CA12583BC8400FA8BD0 /* d112020-p2-simpletest.txt in Resources */,
 				D4E45C12257FBB1300FA8BD0 /* d82020-input.txt in Resources */,
 				D4E45B5C2577D80E00FA8BD0 /* day2-input-2020.txt in Resources */,
 				D4E45BF7257E718D00FA8BD0 /* d72020-testinput.txt in Resources */,
+				D4E45CAD2583BCB600FA8BD0 /* d112020-p2-simpletest3.txt in Resources */,
 				D4E45C852583AAE200FA8BD0 /* d112020-input.txt in Resources */,
 				D4E45C682582635500FA8BD0 /* d102020-input.txt in Resources */,
 				BE7FF1AE256C46870020C4C9 /* Assets.xcassets in Resources */,
@@ -574,6 +591,7 @@
 				D4E45BA4257AF5E900FA8BD0 /* invalid-passports.txt in Resources */,
 				D4E45C962583B28400FA8BD0 /* d112020-input-test.txt in Resources */,
 				D4E45C56258261E600FA8BD0 /* d102020-input.txt in Resources */,
+				D4E45CA62583BC9D00FA8BD0 /* d112020-p2-simpletest2.txt in Resources */,
 				D4E45BE9257E6CE000FA8BD0 /* d72020-input.txt in Resources */,
 				D4E45B7625791D8200FA8BD0 /* day3-input-2020.txt in Resources */,
 				D4E45C2A25810E3100FA8BD0 /* d92020-input.txt in Resources */,
@@ -590,9 +608,12 @@
 				D4E45C2B25810E3100FA8BD0 /* d92020-input.txt in Resources */,
 				D4E45B8525792BA700FA8BD0 /* test-input-d32020.txt in Resources */,
 				D4E45B94257A797A00FA8BD0 /* day4-input-2020.txt in Resources */,
+				D4E45CA22583BC8400FA8BD0 /* d112020-p2-simpletest.txt in Resources */,
 				D4E45BEA257E6CE000FA8BD0 /* d72020-input.txt in Resources */,
+				D4E45CAE2583BCB600FA8BD0 /* d112020-p2-simpletest3.txt in Resources */,
 				D4E45C692582635500FA8BD0 /* d102020-input.txt in Resources */,
 				D4E45B472576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
+				D4E45CA72583BC9D00FA8BD0 /* d112020-p2-simpletest2.txt in Resources */,
 				D4E45C57258261E600FA8BD0 /* d102020-input.txt in Resources */,
 				BE7FF212256D9AC20020C4C9 /* day2-input.txt in Resources */,
 				D4E45C3225810E4700FA8BD0 /* d92020-input-test.txt in Resources */,
@@ -668,6 +689,7 @@
 				D4E45BA9257AF63D00FA8BD0 /* PassportProcessorTests.swift in Sources */,
 				D4E45C3F25810FEA00FA8BD0 /* XMASCypherTests.swift in Sources */,
 				BE7FF1BD256C46870020C4C9 /* AdventOfCodeTests.swift in Sources */,
+				D4E45C9D2583BC2700FA8BD0 /* SeatMapTests.swift in Sources */,
 				D4E45BDB257D1D7300FA8BD0 /* CustomsDeclaration.swift in Sources */,
 				BE7FF20C256D975B0020C4C9 /* WrappingPaperCalculatorTests.swift in Sources */,
 				D4E45B562577D77800FA8BD0 /* Day2View2020.swift in Sources */,
