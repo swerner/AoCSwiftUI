@@ -110,6 +110,10 @@
 		D4E45C692582635500FA8BD0 /* d102020-input.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C672582635500FA8BD0 /* d102020-input.txt */; };
 		D4E45C712582644400FA8BD0 /* d102020-input-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C702582644400FA8BD0 /* d102020-input-test.txt */; };
 		D4E45C722582644400FA8BD0 /* d102020-input-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C702582644400FA8BD0 /* d102020-input-test.txt */; };
+		D4E45C782582F2DF00FA8BD0 /* d102020-input-test-small.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C772582F2DF00FA8BD0 /* d102020-input-test-small.txt */; };
+		D4E45C792582F2DF00FA8BD0 /* d102020-input-test-small.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4E45C772582F2DF00FA8BD0 /* d102020-input-test-small.txt */; };
+		D4E45C7D2582F33600FA8BD0 /* AdapterCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C7C2582F33600FA8BD0 /* AdapterCounter.swift */; };
+		D4E45C7E2582F33600FA8BD0 /* AdapterCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E45C7C2582F33600FA8BD0 /* AdapterCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -189,6 +193,8 @@
 		D4E45C55258261E600FA8BD0 /* d102020-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "d102020-input.txt"; sourceTree = "<group>"; };
 		D4E45C672582635500FA8BD0 /* d102020-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "d102020-input.txt"; sourceTree = "<group>"; };
 		D4E45C702582644400FA8BD0 /* d102020-input-test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d102020-input-test.txt"; sourceTree = "<group>"; };
+		D4E45C772582F2DF00FA8BD0 /* d102020-input-test-small.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d102020-input-test-small.txt"; sourceTree = "<group>"; };
+		D4E45C7C2582F33600FA8BD0 /* AdapterCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -437,6 +443,8 @@
 				D4E45C55258261E600FA8BD0 /* d102020-input.txt */,
 				D4E45C672582635500FA8BD0 /* d102020-input.txt */,
 				D4E45C702582644400FA8BD0 /* d102020-input-test.txt */,
+				D4E45C772582F2DF00FA8BD0 /* d102020-input-test-small.txt */,
+				D4E45C7C2582F33600FA8BD0 /* AdapterCounter.swift */,
 			);
 			path = Day10;
 			sourceTree = "<group>";
@@ -530,6 +538,7 @@
 				D4E45B9F257A802B00FA8BD0 /* d42020-sample-data.txt in Resources */,
 				D4E45BFE257EFEC200FA8BD0 /* d72020-input-test2.txt in Resources */,
 				D4E45B8425792BA700FA8BD0 /* test-input-d32020.txt in Resources */,
+				D4E45C782582F2DF00FA8BD0 /* d102020-input-test-small.txt in Resources */,
 				D4E45B462576875E00FA8BD0 /* day1-input-2020.txt in Resources */,
 				D4E45B93257A797A00FA8BD0 /* day4-input-2020.txt in Resources */,
 				D4E45C3125810E4700FA8BD0 /* d92020-input-test.txt in Resources */,
@@ -567,6 +576,7 @@
 				D4E45C1A257FBB2A00FA8BD0 /* d82020-input-test.txt in Resources */,
 				D4E45B5D2577D80E00FA8BD0 /* day2-input-2020.txt in Resources */,
 				D4E45BA5257AF5E900FA8BD0 /* invalid-passports.txt in Resources */,
+				D4E45C792582F2DF00FA8BD0 /* d102020-input-test-small.txt in Resources */,
 				D4E45BB6257BD6C100FA8BD0 /* d52020-input.txt in Resources */,
 				D4E45BF8257E718D00FA8BD0 /* d72020-testinput.txt in Resources */,
 				D4E45B7725791D8200FA8BD0 /* day3-input-2020.txt in Resources */,
@@ -588,6 +598,7 @@
 				D4E45BAE257BD5E800FA8BD0 /* D52020View.swift in Sources */,
 				D4E45C0D257FBAE200FA8BD0 /* InstructionProcessor.swift in Sources */,
 				D4E45C06257EFF6C00FA8BD0 /* D82020View.swift in Sources */,
+				D4E45C7D2582F33600FA8BD0 /* AdapterCounter.swift in Sources */,
 				BE7FF206256D973F0020C4C9 /* WrappingPaperCalculator.swift in Sources */,
 				D4E45B552577D77800FA8BD0 /* Day2View2020.swift in Sources */,
 				D4E45B212575E64700FA8BD0 /* AoC2020View.swift in Sources */,
@@ -637,6 +648,7 @@
 				D4E45BBD257BD6EC00FA8BD0 /* BoardingPass.swift in Sources */,
 				D4E45BE3257D277B00FA8BD0 /* D72020View.swift in Sources */,
 				BE7FF1DA256C46DD0020C4C9 /* NQL.swift in Sources */,
+				D4E45C7E2582F33600FA8BD0 /* AdapterCounter.swift in Sources */,
 				D4E45B642577D84500FA8BD0 /* PasswordsProcessor.swift in Sources */,
 				BE7FF21D256DA2990020C4C9 /* FileImporter.swift in Sources */,
 				D4E45BC7257BDEB200FA8BD0 /* ArrayExtensionTests.swift in Sources */,
